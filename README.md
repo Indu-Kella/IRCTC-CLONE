@@ -81,7 +81,7 @@ This project is for educational purposes only and not affiliated with official I
 ![alt text](image-2.png)
 
 ### Login 
-![alt text](image-3.png)
+![alt text](image-1.png)
 
 ### Register
 ![alt text](image-4.png)
