@@ -31,7 +31,7 @@ It includes features like user authentication, train search, ticket booking with
 
 ### Steps  
 # Clone repository
-git clone https://github.com/your-username/irctc-clone.git
+git clone https://github.com/Indu-Kella/IRCTC-CLONE.git
 cd irctc-clone
 
 # Install frontend dependencies
