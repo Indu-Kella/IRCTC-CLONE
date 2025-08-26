@@ -1,0 +1,174 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalContent {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  min-width: auto;
+
+  width: 80%;
+  height: 90%;
+  overflow-y: auto;
+}
+
+.modalCloseBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: black !important;
+}
+
+.AddImage {
+  width: 100%;
+  height: 100%;
+}
+
+.AddImageContainer {
+  width: 65%;
+  height: 430px;
+
+  margin-left: 5%;
+  margin-right: 3%;
+  margin-top: 3%;
+
+}
+
+.LoginHeading {
+  color: navy;
+  text-decoration: underline;
+  text-decoration-color: navy;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.LoginContainer {
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-width: 1px #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+@media (max-width: 767.98px) {
+  .LoginContainer {
+    width: 90%;
+  }
+}
+
+.captcha-container {
+  height: auto;
+  width: 100%;
+  background-color: #000080;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+  margin-top: 20px !important;
+}
+
+.ForgetLink {
+  font-size: 11px;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none !important;
+
+}
+
+.LoginUsername {
+  border-radius: 0px;
+  border-style: 1px;
+  border-color: darkgray;
+  color: #000080 !important;
+  font-size: 12px;
+  height: 40px;
+}
+
+.LoginUsername::placeholder {
+  color: #000080;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.LoginPassword {
+  border-radius: 0px;
+  border-style: 1px;
+  border-color: darkgray;
+  color: #000080 !important;
+  font-size: 12px;
+  height: 40px;
+}
+
+.LoginPassword::placeholder {
+  color: #000080;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.EnterCaptcha {
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkgray;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+
+}
+
+.SignInBtn {
+  background-color: darkorange;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  border-width: 0px;
+  height: 40px;
+}
+
+.RegisterBtn {
+  width: 60%;
+  background-color: #000080;
+  color: white;
+  border-width: 0px;
+  font-weight: 700;
+  height: 38px;
+  margin-left: 0px !important;
+}
+
+.loginLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: navy;
+  margin-left: 12px;
+
+}
+
+.WaterImage {
+  width: 100%;
+  height: 230px;
+}
+
+.checkboxInput {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  background-color: lightsteelblue;
+  border-radius: 0px !important;
+}

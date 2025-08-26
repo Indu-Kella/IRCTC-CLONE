@@ -1,0 +1,12 @@
+
+# === NODE MODULES ===
+node_modules/
+backend/node_modules/
+
+# === ENV FILES ===
+.env
+backend/.env
+
+# === LOG FILES ===
+*.log
+

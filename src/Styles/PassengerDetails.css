@@ -1,0 +1,123 @@
+.TrainName {
+  background-color: #e6e8eb;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.PassengerDetailsContainer {
+  width: 72%;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.PassengerMain {
+  margin-top: 150px;
+}
+
+@media (max-width: 767.98px) {
+  .PassengerDetailsContainer {
+    width: 100%;
+  }
+
+  .PassengerMain {
+    margin-top: 50px;
+  }
+
+  .MobileContainer {
+    width: '50% ' !important;
+  }
+
+}
+
+.MobileContainer {
+  background-color: lightgray;
+  height: 40px;
+  width: 23%;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .MobileContainer {
+    width: 70%;
+  }
+}
+
+.GstContainer {
+  background-color: lightgray;
+  height: 40px;
+  width: 70%;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .GstContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .GstContainer {
+    width: 100%;
+  }
+}
+
+
+.MainPassengerDetailsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.FareContainer {
+  margin: 10px;
+  width: 22%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  height: 25%;
+}
+
+.FareContainerPayment {
+  margin: 10px;
+  width: 40%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  height: 25%;
+}
+
+.PageNumberDetails {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.WaterImage {
+  width: 100%;
+  height: 230px;
+}
+
+.EnterCaptcha {
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkgray;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+
+}

@@ -1,0 +1,98 @@
+.TrainItemContainer {
+    width: 75%;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 1%;
+
+}
+
+.TrainNameContainer {
+    background-color: #e6e8eb;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.BerthStyle {
+    width: 180px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 1px !important;
+    border-color: #e6e8eb;
+}
+
+.AvailBerthStyle {
+    width: 180px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 1px !important;
+    border-color: #f7f8fa;
+    background-color: white;
+    margin: 10px;
+}
+
+.BerthContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.BookNowButton {
+    background-color: pink;
+    border-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+    margin-left: 10px;
+    border-width: 1px;
+}
+
+.berthSelectedContainer {
+    background-color: #f7f8fa;
+    width: 100%;
+    margin-left: 0px !important;
+    padding-bottom: 5px;
+}
+
+.closeButton {
+    width: auto;
+    height: 30px;
+    background-color: #e6e8eb !important;
+    border-width: 0px !important;
+    text-align: start;
+    align-items: end;
+    margin-left: 0% !important;
+}
+
+.ContainerBerthButton {
+    background-color: #f7f8fa;
+    color: black;
+    margin-right: 15px;
+    border-width: 0px !important;
+    font-weight: bold;
+    width: auto;
+
+}
+
+.ContainerBerthButtonContainer {
+    display: flex;
+
+}
+
+.BerthsShowConatiner {
+    width: 98%;
+    border-bottom: 1px solid grey;
+}

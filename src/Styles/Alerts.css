@@ -1,0 +1,27 @@
+.MainContainerAlert {
+    margin-top: 113px;
+}
+
+.AlertButton {
+    width: 175px;
+    height: 65px;
+    border-width: 0px;
+}
+
+.topButtons {
+    background-color: #f0f0f0;
+}
+
+.alertContainer {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.ListBackground {
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.tabContent {
+    margin-top: 10px;
+}
